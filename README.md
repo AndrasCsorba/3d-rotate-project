@@ -1,5 +1,5 @@
 # 3d-rotate-project
-This project made with just html and css.Project Overview
+Project Overview
 LIVE DEMO ===>>> https://andrascsorba.github.io/3d-rotate-project/
 
 This project is a responsive image slider that uses HTML, CSS, and JavaScript. The slider allows users to view a series of images and navigate between them using previous and next buttons. It supports dynamic image transitions and adapts to various screen sizes, providing a modern and elegant interface.
