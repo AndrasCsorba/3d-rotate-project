@@ -1,6 +1,7 @@
 # 3d-rotate-project
 This project made with just html and css.Project Overview
 LIVE DEMO ===>>> https://andrascsorba.github.io/3d-rotate-project/
+
 This project is a responsive image slider that uses HTML, CSS, and JavaScript. The slider allows users to view a series of images and navigate between them using previous and next buttons. It supports dynamic image transitions and adapts to various screen sizes, providing a modern and elegant interface.
 
 1. Features
@@ -9,14 +10,15 @@ Image Transitions: Smooth sliding transitions between images.
 Navigation Controls: "Next" and "Previous" buttons to control the flow of images.
 CSS Animation: Uses CSS animations for transitions like blur effects and rotating elements.
 Custom Fonts: Includes fonts like "Bebas Neue" and "Poppins" for aesthetic typography.
-2. Technologies Used
+
+3. Technologies Used
 HTML5: Markup structure for the slider and overall page.
 CSS3: Styling for layout, animations, and responsiveness.
 JavaScript (ES6): To handle the logic of the image slider (navigation and dynamic styling)
-3. File Structure
-less
-Code kopieren
-4. Setup Instructions
+4. File Structure
+Is simple.
+
+6. Setup Instructions
 Clone the Repository
 Clone the project repository from GitHub using the following command:
 
@@ -24,6 +26,7 @@ bash
 Code kopieren
 git clone https://github.com/your-username/image-slider.git
 Open the Project
+
 Navigate to the project folder and open index.html in a web browser to see the image slider in action.
 
 Customizing Images
