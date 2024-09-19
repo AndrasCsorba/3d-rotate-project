@@ -16,12 +16,6 @@ JavaScript (ES6): To handle the logic of the image slider (navigation and dynami
 3. File Structure
 less
 Code kopieren
-/image-slider
-│
-├── index.html     // Main HTML file
-├── style.css      // CSS file for styling
-├── app.js         // JavaScript file for slider functionality
-└── img/           // Folder for images used in the slider
 4. Setup Instructions
 Clone the Repository
 Clone the project repository from GitHub using the following command:
@@ -40,66 +34,14 @@ Key features of the style.css file include:
 
 Custom Properties: CSS variables are used for the slider’s width and image size:
 
-css
-Code kopieren
-:root {
-  --width-default: min(1200px, 90vw);
-  --diameter: 1432px;
-}
+
 Slider Design: Each slider item consists of an image and text content. The background image is set using the --url custom property:
 
-css
-Code kopieren
-.slider .list .item .image {
-  width: var(--diameter);
-  height: var(--diameter);
-  background-image: var(--url);
-  background-size: var(--diameter) var(--diameter);
-}
-Responsive Behavior: The slider adjusts for various screen sizes with media queries:
 
-css
-Code kopieren
-@media all and (max-width: 1024px) {
-  .slider .list .item .content {
-    grid-template-columns: repeat(2, 300px);
-  }
-}
 6. JavaScript Functionality (app.js)
 The app.js file provides the logic for navigating between slider items.
 
-Element Selection
-javascript
-Code kopieren
-let items = document.querySelectorAll(".slider .list .item");
-let prevBtn = document.getElementById("prev");
-let nextBtn = document.getElementById("next");
-Navigation Logic
-javascript
-Code kopieren
-let active = 0;
 
-nextBtn.onclick = () => {
-  active = (active + 1) % items.length;
-  updateSlider();
-};
-
-prevBtn.onclick = () => {
-  active = (active - 1 + items.length) % items.length;
-  updateSlider();
-};
-Update Slider
-javascript
-Code kopieren
-function updateSlider() {
-  items.forEach((item, index) => {
-    if (index === active) {
-      item.classList.add("active");
-    } else {
-      item.classList.remove("active");
-    }
-  });
-}
 This logic ensures that when you click the "Next" or "Previous" button, the correct slide becomes active, and the previous one is hidden.
 
 7. Customization
