@@ -50,7 +50,9 @@ You can easily customize the slider by:
 
 Changing the images in the img/ folder and updating the CSS variable for each slide.
 Modifying the content inside each .item element in the HTML file (titles, descriptions).
+
 7. Conclusion
+
 This project demonstrates how to build a responsive image slider using HTML, CSS, and JavaScript. It uses modern CSS techniques like custom properties and media queries to ensure the layout is responsive and visually appealing across different devices. The JavaScript handles the basic logic for navigating between slides, providing a smooth user experience.
 
 8. Future Improvements
