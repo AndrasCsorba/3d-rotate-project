@@ -14,9 +14,7 @@ Custom Fonts: Includes fonts like "Bebas Neue" and "Poppins" for aesthetic typog
 2. Technologies Used
 HTML5: Markup structure for the slider and overall page.
 CSS3: Styling for layout, animations, and responsiveness.
-JavaScript (ES6): To handle the logic of the image slider (navigation and dynamic styling)
-4. File Structure
-Is simple.
+JavaScript (ES6): To handle the logic of the image slider (navigation and dynamic styling).
 
 3. Setup Instructions
 Clone the Repository
