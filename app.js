@@ -38,4 +38,4 @@ const setDiameter = () => {
 setDiameter();
 window.addEventListener("resize", () => {
   setDiameter();
-});
+});// call the diameter function. 
